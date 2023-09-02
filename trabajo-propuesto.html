@@ -1,41 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Presentación personal</title>
-</head>
-<body>
-    <h1>Gabriel Anderson Ccama Apaza</h1>
-    <hr>
-    <img src="img/avatar.png" alt="avatar HTML5" width="300px"/>
-    <h2>Sobre mi:</h2>
-    <p>
-        Me apasiona mucho la tecnología. Por esta razón elegí la carrera de Diseño <br> 
-        y Desarrollo de Software. Mis hobbies son jugar fútbol y escuchar música en <br>
-        mis tiempos libres. Me gusta todo tipo de música de acuerdo al momento, me <br>
-        gustan los aterdeceres y lugares abiertos y tranquilos. Son un amante de los <br>
-        animales, sobre todo los perros y los gatos.
-    </p>
-    <h2>Habilidades:</h2>
-    <ul>
-        <li>Conocimiento intermedio en el lenguaje Python</li>
-        <li>Conocimiento intermedio en el lenguaje Java</li>
-        <li>Conocimiento básico en HTML</li>
-        <li>Conocimiento intermedio en bases de datos SQL</li>
-    </ul>
-    <h2>Formación profesional:</h2>
-    <ul>
-        <li>Estudiante de Ingeniría de Sistemas - UNA PUNO</li>
-        <li>Estudiante de Diseño y Desarrollo de Software - TECSUP</li>
-    </ul>
-    <H2>Idiomas:</H2>
-    <ul>
-        <li>
-            Español
-            Ingles Intermedio
-        </li>
-    </ul>
-</body>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <div class="contenido-principal">
+    <body>
+      <div class="encabezado">
+        <h1>Gabriel Anderson Ccama Apaza C24-D</h1>
+        <img src="img/gatito.png" alt="Imagen" class="imagen" />
+      </div>
+      <hr />
+      <div>
+        <table>
+          <tr>
+            <th>
+              <img src="img/foto.png" alt="avatar HTML5" width="350px" id="foto"/>
+            </th>
+            <th>
+                <p>¡Hola! Mi nombre es Gabriel Anderson, tengo 18 años y soy amante de la tecnología.</p>
+              <h2>SOBRE MI</h2>
+              <p>
+                Me apasiona mucho la tecnología. Por esta razón elegí la carrera
+                de Diseño y Desarrollo <br />
+                de Software. Mis hobbies son jugar fútbol y escuchar música en
+                mis tiempos libres. Me <br />
+                todo tipo de música de acuerdo al momento, me gustan los
+                atardeceres y lugares abiertos <br />
+                y tranquilos. Son un amante de los animales, sobre todo los
+                perros y los gatos.
+              </p>
+              <h2>MI MÚSICA</h2>
+              <audio controls>
+                <source src="ado/musicafav.mp3" type="audio/mpeg">
+            </audio>
+            </th>
+          </tr>
+        </table>
+      </div>
+      <hr />
+      <div class="tablas">
+        <table border="1" id="tabla1">
+          <tr>
+            <th><h2>Habilidades</h2></th>
+            <th><h2>Formación profesional</h2></th>
+            <th><h2>Idiomas</h2></th>
+          </tr>
+          <tr>
+            <td>
+              <ul>
+                <li>Conocimiento intermedio en el lenguaje Python</li>
+                <li>Conocimiento intermedio en el lenguaje Java</li>
+                <li>Conocimiento básico en HTML</li>
+                <li>Conocimiento intermedio en bases de datos SQL</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Estudiante de Ingeniría de Sistemas - UNA PUNO</li>
+                <li>Estudiante de Diseño y Desarrollo de Software - TECSUP</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li>Español</li>
+                <li>Ingles Intermedio</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <hr />
+      <div class="formularios">
+        <table id="tabla2">
+          <tr>
+            <th><h3>DATOS</h3></th>
+            <th><h3>CONTACTANOS</h3></th>
+            <th><h3>INFORMACIÓN DEL CURSO</h3></th>
+          </tr>
+          <tr>
+            <td>
+              <form>
+                <label for="nombre">Nombre:</label><br />
+                <input
+                  type="text"
+                  id="nombre"
+                  name="nombre"
+                  placeholder="Escribe tu nombre"
+                  required="true"
+                /><br />
+
+                <label for="apellido">Apellido:</label><br />
+                <input
+                  type="text"
+                  id="apellido"
+                  name="apellido"
+                  placeholder="Escribe tu apellido"
+                  required="true"
+                /><br />
+
+                <input type="submit" value="Enviar" />
+                <input
+                  type="submit"
+                  formnovalidate="formnovalidate"
+                  value="Enviar sin validar"
+                />
+              </form>
+            </td>
+            <td>
+                <a href="https://www.facebook.com/gabrielanderson.ccamaapaza?mibextid=ZbWKwL" target="_blank"><img src="img/fb.png" width="37px"></a>
+                <a href="https://instagram.com/gabriel_ccama?igshid=NGExMmI2YTkyZg==" target="_blank"><img src="img/insta.png" width="45px"></a>
+                <a href="https://twitter.com/gabriel_cc25446" target="_blank"><img src="img/twt.png" width="40px"></a>
+                <a href="https://www.linkedin.com/in/gabriel-ccama-b15b21252" target="_blank"><img src="img/lkl.png" width="50px"></a>    
+            </td>
+            <td>
+                <ul>
+                    <li>Curso de Desarrollo de Aplicaciones en Internet</li>
+                    <li>Semestre III - Grupo D</li>
+                    <li>Laboratorio 1</li>
+                    <li>TECSUP</li>
+                </ul>       
+            </td>
+          </tr>
+        </table>
+      </div>
+    </body>
+  </div>
 </html>

@@ -1,0 +1,55 @@
+body{
+    margin-left: 370px;
+    margin-right: 370px;
+}
+
+.contenido-principal{
+    background-color: #FBEEAC;
+    padding-bottom: 20px;
+}
+
+.encabezado{
+    display: flex;
+    align-items: center;   
+    background: #F4D160; 
+}
+
+.imagen{
+    margin-left: 350px;
+    width: 100px;
+}
+
+h1{
+    padding: 3%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.tablas{
+    margin-top: 35px;
+    margin-left: 90px;
+    margin-bottom: 35px;
+}
+
+.formularios{
+    margin-left: 90px;
+}
+
+#tabla2 tr td:nth-child(2){
+    width: 45%;
+    text-align: center;
+}
+
+#tabla1{
+    background-color:bisque;
+}
+
+#foto{
+    margin-left: 40px;
+    margin-right: 40px;
+}
